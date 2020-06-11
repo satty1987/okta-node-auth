@@ -1,0 +1,31 @@
+{
+  "name": "node-okta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "start:dev":"nodemon index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satty1987/okta-node-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satty1987/okta-node-auth/issues"
+  },
+  "homepage": "https://github.com/satty1987/okta-node-auth#readme",
+  "dependencies": {
+    "@okta/oidc-middleware": "^4.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
